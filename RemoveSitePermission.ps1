@@ -1,5 +1,10 @@
-Add-PSSnapin Microsoft.SharePoint.PowerShell –erroraction SilentlyContinue
+########## 
 
+# This script removes permission from a site including the subsites
+
+##########  
+
+Add-PSSnapin Microsoft.SharePoint.PowerShell –erroraction SilentlyContinue
 
 # Get all the subsites
 Function Get-Subsites($SiteURL){

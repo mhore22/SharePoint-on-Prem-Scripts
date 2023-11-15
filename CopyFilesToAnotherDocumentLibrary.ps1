@@ -1,3 +1,9 @@
+########## 
+
+# This script copies all files from a source document library to another.
+
+##########
+
 Add-PSSnapin Microsoft.SharePoint.PowerShell -ErrorAction SilentlyContinue
  
 #Custom Function to Copy Files from Source Folder to Target

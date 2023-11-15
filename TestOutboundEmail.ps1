@@ -1,3 +1,9 @@
+########## 
+
+# This script is to test the outbound email
+
+##########
+
 Add-PSSnapin Microsoft.SharePoint.PowerShell -ErrorAction SilentlyContinue
  
 #Configuration Parameters
